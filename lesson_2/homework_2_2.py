@@ -14,7 +14,8 @@ print(result_string_2)
 # Save the expression to result_value variable
 
 number = "5"
-result_value = (number * 3)
+number_1 = int(number)
+result_value = pow(number_1, 3)
 print(result_value)
 
 
