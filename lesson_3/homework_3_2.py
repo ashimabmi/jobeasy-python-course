@@ -28,7 +28,7 @@ number_1 = int(input('enter first number:'))
 number_2 = int(input('enter second number:'))
 if 0 < number_1 <= 5 and 0 < number_2 <= 5:
     result_2 = number_1 * number_2
-elif (5 < number_1 <= 10 and not(5 < number_2 <= 10)) or (5 < number_2 <= 10 and not(5 < number_1 <= 10)):
+elif (5 < number_1 <= 10 or (1 < number_2 <= 10)) and (5 < number_2 <= 10 or (1 < number_1 <= 10)):
     result_2 = number_1 + number_2
 elif 5 < number_1 <= 10 and 5 < number_2 <= 10:
     result = number_1 + number_2
